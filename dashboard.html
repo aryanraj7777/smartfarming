@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Farmer Dashboard</h1>
+        <p>Here is your climate condition and best crops to grow:</p>
+
+        <div class="data-box">
+            <h2>Current Climate Conditions</h2>
+            <p><strong>Location:</strong> Bihar, India</p>
+            <p><strong>Temperature:</strong> 30°C</p>
+            <p><strong>Humidity:</strong> 70%</p>
+            <p><strong>Soil Type:</strong> Loamy</p>
+        </div>
+
+        <div class="data-box">
+            <h2>Recommended Crops</h2>
+            <p>- Rice</p>
+            <p>- Sugarcane</p>
+            <p>- Jute</p>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        function logout() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
